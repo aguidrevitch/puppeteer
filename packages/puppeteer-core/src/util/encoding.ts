@@ -12,11 +12,7 @@ export function stringToTypedArray(
   base64Encoded = false
 ): Uint8Array {
   if (base64Encoded) {
-    const binaryString = atob(string);
-    // @ts-expect-error There are non-proper overloads
-    return Uint8Array.from(binaryString, m => {
-      return m.codePointAt(0);
-    });
+    return new Uint8Array(Buffer.from(string, 'base64'));
   }
   return new TextEncoder().encode(string);
 }
