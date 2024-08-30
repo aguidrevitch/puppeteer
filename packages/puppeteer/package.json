@@ -1,6 +1,6 @@
 {
   "name": "@aguidrevitch/puppeteer",
-  "version": "23.2.2-fastpixel.3",
+  "version": "23.2.2-fastpixel.4",
   "description": "A high-level API to control headless Chrome over the DevTools Protocol",
   "keywords": [
     "puppeteer",
