@@ -174,5 +174,6 @@
     "tools/doctest",
     "tools/docgen",
     "tools/mocha-runner"
-  ]
+  ],
+  "version": "0.0.1"
 }
